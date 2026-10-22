@@ -181,6 +181,8 @@
   /* ---------- Contact ---------- */
   .contact { margin-top: 72px; background: var(--navy); color: #fff; padding-block: 44px; }
   .contact .wrap { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: center; }
+   .contact-actions { display: flex; flex-direction: column; gap: 12px; align-items: stretch; }
+   .contact-actions .btn { min-width: 210px; }
   .contact h2 { font-size: clamp(22px, 3vw, 28px); font-weight: 800; letter-spacing: -.02em; }
   .contact p { margin-top: 6px; color: #b7c4de; max-width: 54ch; }
   .reach { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
@@ -348,16 +350,13 @@
           <button class="copy" type="button" data-copy="+212614765491" id="copy-tel"><span>+212 6 14 76 54 91</span><em>Copier</em></button>
         </div>
       </div>
-      <a class="btn btn-primary" href="mailto:oumamamohamed008@gmail.com">Écrire un e-mail
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="contact-actions">
+        <a class="btn btn-primary"
+           href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=oumamamohamed008%40gmail.com"
+           target="_blank" rel="noopener noreferrer">✉ Écrire un e-mail</a>
+        <a class="btn btn-ghost" href="CV_Mohamed_Oumama_cadre.pdf" download>⬇ Télécharger mon CV</a>
+      </div>
     </div>
-    
-<a class="btn btn-ghost"
-   href="CV_Mohamed_Oumama_cadre.pdf"
-   download>
-  ⬇ Télécharger mon CV
-</a>
-
   </div>
 </main>
 
